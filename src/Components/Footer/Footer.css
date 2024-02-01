@@ -1,0 +1,62 @@
+footer {
+  font-size: 1rem;
+  background-image: url('https://mcdn.wallpapersafari.com/medium/27/79/1sHo5Z.jpg') ;
+  height: auto;
+  background-size: cover;
+  color: white;
+  padding:0 30px;
+    text-align: center;
+  align-items: center;
+  margin: 0;
+
+}
+.footer-flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.footer-flex-container .img{
+  color: white;
+}
+.cognify-logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#quick-links ul {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  
+}
+#quick-links ul li{
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+#social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  display: block;
+
+}
+#social-links a i{
+  padding-right: 3px;
+}
+
+@media screen and (max-width:925px){
+footer{
+  padding:0 3rem;
+
+}
+}

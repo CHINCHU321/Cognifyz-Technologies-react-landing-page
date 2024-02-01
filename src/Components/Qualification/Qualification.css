@@ -1,0 +1,24 @@
+.qualification{
+  height: auto;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  
+}
+.qualification-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+
+}
+.qualification-text h2{
+  font-size: 48px;
+  }
+  .qualification-text ul li{
+    padding: 1rem 1rem;
+  }

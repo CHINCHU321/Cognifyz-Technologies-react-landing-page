@@ -1,0 +1,19 @@
+.aboutus{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/027/856/028/small/flowing-clothes-with-white-background-3d-rendering-photo.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus h2{
+  font-size: 40px;
+}
+.aboutus ul{
+  padding: 1rem 1rem;
+
+}
+.aboutus ul li{
+padding: 1rem 1rem;
+}
