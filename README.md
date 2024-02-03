@@ -1,7 +1,7 @@
 
 Level 3
 
-Task 1
+Task 2
 
 Create a landing page for a web developer internship
 with the following key elements:
