@@ -8,6 +8,8 @@
   padding: 0;
   margin: 0;
 }
+
+
 .fpart{
   padding: 1rem;
   display: flex;
@@ -34,9 +36,48 @@ h3{
     list-style-type: none;
 
   }
+
+
 .spart{
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+/* Highlight.css */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fpart, .spart {
+  opacity: 0;
+}
+
+.fpart.visible {
+  animation: slideInFromLeft 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.spart.visible {
+  animation: slideInFromRight 1s ease-in-out;
+  animation-fill-mode: forwards;
 }

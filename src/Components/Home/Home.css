@@ -1,22 +1,36 @@
-.home{
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.home-container{
   background-image: url("https://promwad.com/sites/default/files/web-development_0.jpg");
-  height: 100vh;
+  height: 90vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
+ 
 }
-.home h1{
+.slideup{
+  opacity: 1;
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+.home-container h1{
   color: white;
   font-size: 48px;
   letter-spacing: 4px;
   width: 93%;
-
+  
   }
-  .home p {
+  .home-container p {
   color: white;
   width: 70%;
+  
 }

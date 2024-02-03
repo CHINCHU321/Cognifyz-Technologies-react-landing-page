@@ -13,9 +13,15 @@
 .overview-text h2{
 font-size: 48px;
 }
+strong{
+  font-size: 48px;
+
+}
+
 
 .overview-text button {
-  background-color: #4285f4;
+  background: linear-gradient(120deg, #111014 26.71%, #c65e08 99.36%);
+
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
@@ -26,7 +32,7 @@ font-size: 48px;
 }
 
 .overview-text button:hover {
-  background-color: #1a73e8;
+  background: linear-gradient(120deg, #c65e08 26.71%, #111014 99.36%);
 }
 
 @media screen and (max-width:925px){

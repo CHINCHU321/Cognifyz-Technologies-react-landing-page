@@ -3,6 +3,10 @@ import featureoverview from "../../img/feature-overview.avif";
 import "./Overview.css";
 
 const Overview = () => {
+  const sectionStyle = {
+    color: 'blue', // Set the desired color
+  };
+
   return (
     <div className='overview'>
       <div className="overview-img">
@@ -10,7 +14,7 @@ const Overview = () => {
       </div> 
 
       <div className='overview-text'>
-        <h2>Program Overview:</h2>
+        <h2>Program <strong style={sectionStyle}>Overview</strong></h2>
           <p>
               This internship program is designed to provide hands-on experience in web development. The duration of the internship is 1 Month.
           </p>

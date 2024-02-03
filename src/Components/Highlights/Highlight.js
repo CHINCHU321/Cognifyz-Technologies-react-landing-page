@@ -1,10 +1,41 @@
-import React from 'react'
-import "./Highlight.css";
+import React, { useEffect } from 'react';
+import { Element, Link } from 'react-scroll';
+import './Highlight.css';
 
 const Highlight = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const fpart = document.querySelector('.fpart');
+      const spart = document.querySelector('.spart');
+
+      const fpartRect = fpart.getBoundingClientRect();
+      const spartRect = spart.getBoundingClientRect();
+
+      const isVisibleFpart = fpartRect.top < window.innerHeight - 100;
+      const isVisibleSpart = spartRect.top < window.innerHeight - 100;
+
+      if (isVisibleFpart) {
+        fpart.classList.add('visible');
+      }
+
+      if (isVisibleSpart) {
+        spart.classList.add('visible');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='highlight'>
-      <h2>Highlights:</h2>
+    <Element name="highlight" className='highlight'>
+      <Link to="highlight" smooth={true} duration={500} offset={-50}>
+        Highlights
+      </Link>
 
       <div className="fpart">
       <h3>Benefits</h3>
@@ -28,7 +59,7 @@ const Highlight = () => {
           </ul>
       </div>
         
-    </div>
+      </Element>
   )
 }
 
