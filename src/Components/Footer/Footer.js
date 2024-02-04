@@ -17,7 +17,7 @@ const Footer = () => {
       <div id="quick-links">
         <h3>Quick-Links</h3>
         <ul>
-      <Link spy={true} to='home' smooth={true} activeClass='activeClass'>
+      <Link spy={true} to='home-container' smooth={true} activeClass='activeClass'>
         <li >Home</li>
       </Link>
       <Link spy={true} to='aboutus' smooth={true} >
@@ -47,9 +47,9 @@ const Footer = () => {
           @cognifyz-Technologies</a>
         <a href="mailto:contact@cognifyz.com">
         <i class="far fa-envelope"></i>
-contact@cognifyz.com</a>
+        contact@cognifyz.com</a>
         <a href="https://cognifyz.com/" target="https://cognifyz.com/">
-www.cognifyz.com</a>
+        www.cognifyz.com</a>
         <a href="https://www.instagram.com/cognifyz_tech/" target="https://www.instagram.com/cognifyz_tech/">
         <i class="fab fa-instagram"></i>
         @cognifyz_tech</a>
