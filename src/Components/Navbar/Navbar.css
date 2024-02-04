@@ -9,7 +9,6 @@
   transition: background-color 0.4s;
   padding: 0 40px;
   z-index: 100;
-
 }
 .navbar ul{
   display: flex;
