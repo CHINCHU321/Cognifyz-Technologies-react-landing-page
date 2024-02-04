@@ -9,7 +9,7 @@ const Navbar = () => {
     <a href="https://cognifyz.com/" target="https://cognifyz.com/">
     <img src={img} alt="logo"/></a>
     <ul>
-      <Link spy={true} to='home' smooth={true} activeClass='activeClass'>
+      <Link spy={true} to='home-container' smooth={true} activeClass='activeClass'>
         <li >Home</li>
       </Link>
       <Link spy={true} to='aboutus' smooth={true} >
