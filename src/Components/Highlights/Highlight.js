@@ -34,7 +34,7 @@ const Highlight = () => {
   return (
     <Element name="highlight" className='highlight'>
       <Link to="highlight" smooth={true} duration={500} offset={-50}>
-        Highlights
+       <h2>Highlights</h2> 
       </Link>
 
       <div className="fpart">
