@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';  // Import your CSS file for styling
+import './Footer.css'; 
 import img from "../../img/footer-img.png";
 import {Link} from 'react-scroll'
 
@@ -53,7 +53,6 @@ const Footer = () => {
         <a href="https://www.instagram.com/cognifyz_tech/" target="https://www.instagram.com/cognifyz_tech/">
         <i class="fab fa-instagram"></i>
         @cognifyz_tech</a>
-        {/* Add more social links as needed */}
       </div>
     </div>
     <p>&copy; 2024 Cognify Technologies. All rights reserved by Chinchu Babu.</p>

@@ -4,7 +4,7 @@ import "./Overview.css";
 
 const Overview = () => {
   const sectionStyle = {
-    color: 'blue', // Set the desired color
+    color: 'blue', 
   };
 
   return (
