@@ -1,25 +1,19 @@
 
-Level 3
+## Level 3 Task 2
 
-Task 2
+Create a landing page for a web developer internship with the following key elements:
 
-Create a landing page for a web developer internship
-with the following key elements:
-Clear headline: "Web Developer Internship
-Opportunities at Cognifyz Technologies"
-Brief introduction: Overview of the internship
-program and duration.
+Clear headline: "Web Developer Internship Opportunities at Cognifyz Technologies"
 
-Highlights: Benefits of the internship, such as real-
-world experience and mentorship.
+Brief introduction: Overview of the internship program and duration.
+
+Highlights: Benefits of the internship, such as real-world experience and mentorship.
 
 Qualifications: Desired skills and technologies.
-Call-to-action (CTA) button: "Apply Now" or "Learn
-More.
-"
 
-Contact information: Footer with relevant contact
-details for inquiries.
+Call-to-action (CTA) button: "Apply Now" or "LearnMore."
+
+Contact information: Footer with relevant contact details for inquiries.
 
 # Getting Started with Create React App
 
